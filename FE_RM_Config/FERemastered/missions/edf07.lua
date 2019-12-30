@@ -1182,8 +1182,7 @@ function Routine9()
 			if M.Constructor ~= nil then
 				Attack(M.Attacker14, M.Constructor, 1);
 				--Attack(M.Attacker15, M.Constructor, 1);
-			end			
-			SetCurHealth(M.Attacker14, 6000);
+			end
 			M.Attacker16 = TeleportIn("cvscout", 5, "islandstart", 10);
 			M.Attacker17 = TeleportIn("cvturr02", 5, "islandstart", 10);
 			Patrol(M.Attacker16, "islandpath", 1);

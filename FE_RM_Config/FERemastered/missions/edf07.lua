@@ -1190,8 +1190,6 @@ function Routine9()
 			M.Routine9State = M.Routine9State + 1;
 			M.Routine9Timer = GetTime() + 20;
 		elseif M.Routine9State == 4 then
-			SetCurHealth(M.Attacker16, 2200);
-			SetCurHealth(M.Attacker16, 2500);
 			Goto(M.Attacker14, "waterstart2", 1);
 			Goto(M.Attacker16, "waterstart2", 1);
 			Goto(M.Attacker17, "waterstart2", 1);
@@ -1271,7 +1269,6 @@ function Routine9()
 			M.Routine9State = M.Routine9State + 1;
 			M.Routine9Timer = GetTime() + 20;
 		elseif M.Routine9State == 15 then
-			SetCurHealth(M.Attacker17, 8000);
 			M.Routine11Active = true;--RunSpeed,_Routine11,1,false
 			M.Routine9State = M.Routine9State + 1;
 		elseif M.Routine9State == 16 then	--LOC_630
